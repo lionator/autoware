@@ -20,10 +20,23 @@ repositories:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: tier4/main
+  # vwp
+  vwp/autoware.vwp:
+    type: git
+    url: git@github.com:lionator/autoware.vwp.git
+    version: main
+  vwp/external/ros2_ouster_drivers:
+    type: git
+    url: https://github.com/lionator/ros2_ouster_drivers.git
+    version: ros2
+  vwp/vwp_msgs:
+    type: git
+    url: git@github.com:lionator/vwp_msgs.git
+    version: main
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/lionator/autoware.universe.git
+    url: https://github.com/autowarefoundation/autoware.universe.git
     version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
