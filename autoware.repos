@@ -110,6 +110,10 @@ repositories:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
+  vehicle/external/vwp_interface:
+    type: git
+    url: git@github.com:lionator/vwp_interface.git
+    version: main
   # param
   param/autoware_individual_params:
     type: git
