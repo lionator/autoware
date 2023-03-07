@@ -2,7 +2,7 @@
 *.swp
 *.swo
 
-# Logging Data
+# Logging
 *.log
 
 # Visual Studio Code
