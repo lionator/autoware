@@ -23,7 +23,7 @@ repositories:
   # vwp
   vwp/autoware.vwp:
     type: git
-    url: git@github.com:lionator/autoware.vwp.git
+    url: https://github.com/lionator/autoware.vwp.git
     version: main
   vwp/external/ros2_ouster_drivers:
     type: git
@@ -31,12 +31,12 @@ repositories:
     version: ros2
   vwp/vwp_msgs:
     type: git
-    url: git@github.com:lionator/vwp_msgs.git
+    url: https://github.com/lionator/vwp_msgs.git
     version: main
   # universe
   universe/autoware.universe:
     type: git
-    url: git@github.com:lionator/autoware.universe.git
+    url: https://github.com/lionator/autoware.universe.git
     version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
@@ -95,7 +95,7 @@ repositories:
   # sensor_kit
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: git@github.com:lionator/sample_sensor_kit_launch.git
+    url: https://github.com/lionator/sample_sensor_kit_launch.git
     version: main
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
@@ -104,7 +104,7 @@ repositories:
   # vehicle
   vehicle/vwp_vehicle_launch:
     type: git
-    url: git@github.com:lionator/sample_vehicle_launch.git
+    url: https://github.com/lionator/sample_vehicle_launch.git
     version: main
   vehicle/external/pacmod_interface:
     type: git
@@ -112,12 +112,12 @@ repositories:
     version: main
   vehicle/external/vwp_interface:
     type: git
-    url: git@github.com:lionator/vwp_interface.git
+    url: https://github.com/lionator/vwp_interface.git
     version: main
   # param
   param/autoware_individual_params:
     type: git
-    url: git@github.com:lionator/autoware_individual_params.git
+    url: https://github.com/lionator/autoware_individual_params.git
     version: main
   # middleware
   middleware/external/heaphook:
