@@ -113,7 +113,7 @@ repositories:
   vehicle/external/vwp_interface:
     type: git
     url: https://github.com/lionator/vwp_interface.git
-    version: main
+    version: vwp_integration
   # param
   param/autoware_individual_params:
     type: git
