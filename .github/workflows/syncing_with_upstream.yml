@@ -1,4 +1,4 @@
-name: Sync Fork
+name: Sync Fork with Upstream
 
 env:
   UPSTREAM_URL: "https://github.com/autowarefoundation/autoware.git"
