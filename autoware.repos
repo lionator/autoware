@@ -106,7 +106,7 @@ repositories:
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/vwp_vehicle_launch:
+  vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/lionator/sample_vehicle_launch.git
     version: main
