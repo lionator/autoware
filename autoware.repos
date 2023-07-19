@@ -18,6 +18,21 @@ repositories:
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
+    version: tier4/main
+  # vwp
+  vwp/autoware.vwp:
+    type: git
+    url: https://github.com/lionator/autoware.vwp.git
+    version: main
+  vwp/external/ros2_ouster_drivers:
+    type: git
+    url: https://github.com/lionator/ros2_ouster_drivers.git
+    version: ros2
+  vwp/vwp_msgs:
+    type: git
+    url: https://github.com/lionator/vwp_msgs.git
+    version: main
+  # universe
     version: e1795354161ed54d66659366262578863bd2b862
   universe/autoware.universe:
     type: git
@@ -74,27 +89,39 @@ repositories:
   sensor_component/external/velodyne_vls:
     type: git
     url: https://github.com/tier4/velodyne_vls.git
+    version: tier4/universe
+  sensor_component/external/lucid_vision_driver:
+    type: git
+    url: https://github.com/lionator/lucid_vision_driver.git
+    version: main
+  # sensor_kit
     version: 55dffdf3b3ef889e149977dc6ab1da124b5176c9
   sensor_kit/sample_sensor_kit_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
-    version: 5900214b7344a275c8a321bf78f27f8a197e1312
-  sensor_kit/external/awsim_sensor_kit_launch:
+    url: https://github.com/lionator/sample_sensor_kit_launch.git
+    version: main
+  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: a1f5993407ffeb4abcf97a49cd1b4034768d97b4
   vehicle/sample_vehicle_launch:
     type: git
     url: https://github.com/autowarefoundation/sample_vehicle_launch.git
-    version: 157238ca77de7b0a59f71a0b28f456741fab3ca2
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: 689f93cbe9218e127d06d0b937ac62c442b9ce91
+    version: main
+  vehicle/external/vwp_interface:
+    type: git
+    url: https://github.com/lionator/vwp_interface.git
+    version: vwp_integration
+  # param
   param/autoware_individual_params:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: 09082b6cbb99a840c53878a190616d35a40b569f
+    url: https://github.com/lionator/autoware_individual_params.git
+    version: main
+  # middleware
   middleware/external/heaphook:
     type: git
     url: https://github.com/tier4/heaphook.git

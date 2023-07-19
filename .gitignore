@@ -2,6 +2,9 @@
 *.swp
 *.swo
 
+# Logging
+*.log
+
 # Visual Studio Code
 .vscode/
 *.code-workspace
